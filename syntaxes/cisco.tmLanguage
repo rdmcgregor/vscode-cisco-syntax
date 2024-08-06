@@ -181,7 +181,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(ip (address|unnumbered|proxy-arp|nat|nbar|virtual-reassembly|access-group|verify)|speed|(full-|half-)?duplex|cdp enable|encapsulation|dialer(-group)?|compress|ppp|crypto|channel|station-role|encryption|broadcast-key|snmp|isdn|dsl|tunnel|bandwidth|fair-queue|physical-layer|async mode|peer default|switchport|media-type|clockrate)\b</string>
+			<string>\b(ip (address|unnumbered|proxy-arp|nat|nbar|virtual-reassembly|access-group|verify)|speed|(full-|half-)?duplex|cdp enable|encapsulation|dialer(-group)?|compress|ppp|crypto|channel(-group)?|station-role|encryption|broadcast-key|snmp|isdn|dsl|tunnel|bandwidth|fair-queue|physical-layer|async mode|peer default|switchport|media-type|clockrate|spanning-tree)\b</string>
 			<key>name</key>
 			<string>keyword.other.interface.cisco</string>
 		</dict>
@@ -194,7 +194,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b((session|exec)-timeout|login|password|stopbits|access-class|transport (input|output))\b</string>
+			<string>\b((session|exec)-timeout|login|password|stopbits|access-class|transport (input|output)|line)\b</string>
 			<key>name</key>
 			<string>keyword.other.line.cisco</string>
 		</dict>
